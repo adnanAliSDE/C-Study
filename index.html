@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revision Tracker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="inputs">
+        <h1>Input Section</h1>
+        <input type="text" name="chapterName" placeholder="Enter Chapter Name" />
+        <br /><br />
+        <label for="subjectName">Subject:</label>
+        <select name="subjectName" id="subjectName">
+          <option value="Maths">Maths</option>
+          <option value="Physics">Physics</option>
+          <option value="Chemistry">Chemistry</option>
+          <option value="Biology">Biology</option>
+          <option value="English">English</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Add Chapter" />
+      </section>
+      <section class="completed">
+          <header>
+              <h4 class="headerName">Name</h4>
+              <h4>Subject</h4>
+              <h4>Status</h4>
+          </header>
+          <div class="chapters">
+          </div>
+      </section>
+      <section class="toComplete">
+      <header>
+          <h4>Name</h4>
+          <h4 class="headerSubject">Subject</h4>
+          <h4></h4>
+      </header>
+      <div class="chapters">
+        <!-- JS injection -->
+      </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

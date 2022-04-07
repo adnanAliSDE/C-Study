@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0px 20px;
+}
+.completed,.toComplete{
+    margin-top: 20px;
+}
+.toComplete header .headerSubject{
+    transform: translateX(-40%);
+}
+input[type='submit']{
+    width: 100%;
+}
+button,input[type='submit']{
+    background-color: #000;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border: 2px solid #000;
+}
+button:active,input[type='submit']:active{
+    background-color: #fff;
+    color: #000;
+}
+.chapter{
+    align-items: center;
+}
+.chapters,.chapter{
+    margin-top: 10px;
+}
+.completed header, .chapter,.toComplete header{
+    display: flex;
+    justify-content: space-between;
+}
+.chapter *{
+    width: 33%;
+}
+.chapter .name{
+    width: 52%;
+}
+.chapter .subject{
+    width: 29%;
+}
+.chapter .date{
+    padding-left: 85px;
+}
+
